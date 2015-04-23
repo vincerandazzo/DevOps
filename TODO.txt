@@ -1,0 +1,5 @@
+TODO List for DevOps project
+
+1. John to provide app requirements, i.e asp.net MVC, IIS, things like that.
+
+2. John to push folder with website to develop branch
