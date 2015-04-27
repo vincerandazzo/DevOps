@@ -1,0 +1,213 @@
+﻿@model YoungFloHards.Models.ContactUs
+
+@{
+    ViewBag.Title = "YOUNG FLO HARDS";
+    var contactResult = TempData["ContactResult"];
+}
+
+@if (!(contactResult == null))
+{
+    if (contactResult == "success")
+    {
+        <h2 id="banner" class="tyBanner">THANK YOU FOR YOUR MESSAGE!!!</h2>
+    }
+    else
+    {
+        <h2 id="banner" class="errorBanner">THERE WAS AN ERROR SUBMITTING YOUR MESSAGE</h2>
+    }
+}
+
+
+
+<div id="home">
+    <div id="navAndHeader">
+        <img id="mainImage" style="margin: 0 auto;" width="50%" class="img-responsive" src="~/Images/dasYoungFloHards.png" />
+        <h1 class="text-center bootStrapContainerFix">YOUNG FLO HARDS</h1>
+
+        <div id="navigationDiv" class="container-fluid">
+            <nav class="navbar" style="display:block;">
+                <ul id="navigation" class="nav text-center bootStrapContainerFix">
+                    <li class="main_social mainImgLi"><img class="social_img mainImg" /></li>
+
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#flo">FLO</a></li>
+                    <li><a href="#shows">SHOWS</a></li>
+                    <li><a href="#whoWeAre">WHO WE ARE</a></li>
+                    <li><a href="#contactUs">CONTACT US</a></li>
+                    <li class="main_social">
+                        <a href="https://www.facebook.com/youngflo.hards" target="_blank"><img class="social_img fbimg" /></a>
+                    </li>
+                    <li class="main_social"><a href="https://twitter.com/_yfh_" target="_blank"><img class="social_img twimg" /></a></li>
+                    <li class="main_social"><a href="https://soundcloud.com/jered-schleicher" target="_blank"><img class="social_img scimg" /></a></li>
+                    <li class="main_social"><a href="https://www.youtube.com/user/slyker5" target="_blank"><img class="social_img ytimg" /></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="mobileIconRow" class="text-center">
+            <ul class="mobileIconsList">
+                <li class="menuSlide">
+                    <a href="#">
+                        <img id="menuIcon" class="img-responsive" width="18%" src="@Url.Content("~/Images/menuIcon.png")" />
+                    </a>
+                </li>
+                <li class="mobile_social">
+                    <a href="https://www.facebook.com/youngflo.hards"><img class="img-responsive" width="18%" src="@Url.Content("~/Images/facebook.png")" /></a>
+                </li>
+                <li class="mobile_social">
+                    <a href="https://twitter.com/_yfh_"><img class="img-responsive" width="18%" src="@Url.Content("~/Images/twitter.png")" /></a>
+                </li>
+                <li class="mobile_social">
+                    <a href="https://soundcloud.com/jered-schleicher"><img class=" img-responsive" width="18%" src="@Url.Content("~/Images/soundcloud.png")" /></a>
+                </li>
+                <li class="mobile_social">
+                    <a href="https://www.youtube.com/user/slyker5"><img class="img-responsive" width="18%" src="@Url.Content("~/Images/youtube.png")" /></a>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+<div id="flo" class="pad-section">
+    <div class="container">
+        <h2 class="text-center">FLO</h2>
+        <div class="row text-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p><iframe width="85%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187545250&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+                <p><iframe width="85%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97194592&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p><iframe width="85%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187517113&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+                <p><iframe width="85%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187549768&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="shows" class="pad-section showContainer">
+    <div class="container">
+        <h2 class="text-center">SHOWS</h2>
+        <div class="row text-center">
+            <ul class="showList bootStrapContainerFix">
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> APRIL 11, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/thetwistedpaddy">Twisted Paddy (Jered Solo Show)</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> APRIL 17, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/pages/Brindaliers/137620982990033">Brindaliers</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> APRIL 18, 8:00-11:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/GrindBurgerCLE">Grind Burger</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> MAY 1, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/localtavernmentor">Local Tavern in Mentor</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> MAY 9, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/harrybuffalopainesville">Harry Buffalo in Painesville</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> JUNE 26, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/localtavernmentor">Local Tavern in Mentor</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> JULY 11, 9:30-12:30<br />
+                        <strong>WHERE:</strong> <a href="https://www.facebook.com/thetwistedpaddy">Twisted Paddy (Jered Solo Show)</a></>
+                </li>
+                <li>
+                    <p>
+                        <strong>WHEN:</strong> SEPTEMBER 19, TBD<br />
+                        <strong>WHERE:</strong> <a href="http://bretpoklarmemorial.com/">Brett Poklar Memorial Scholarship</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="whoWeAre" class="pad-section">
+    <div class="whoWeAreContainer bootStrapContainerFix">
+        <h2 class="text-center">WHO WE ARE</h2>
+        <div class="row text-center">
+            <p>
+                Rising from a basement in Willoughby, the Young Flo Hards champion a music style known only
+                to them...and the artists they cover. The YFH's are influenced by and incorporate music genres
+                of classic and modern rock, motown, blues, soul, and many more. The icing being their own creations
+                and stage performances.  See the <a href="#shows">SHOWS</a> and check out the <a href="#flo">FLO</a>!!!
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <h3 class="text-center">JERED</h3>
+                <div class="row">
+                    <img class="img-responsive" src="~/Images/jered.jpg" />
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h3 class="text-center">RYAN</h3>
+                <div class="row">
+                    <img class="img-responsive" src="~/Images/zupan.jpg" />
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h3 class="text-center">JOSIAH</h3>
+                <div class="row">
+                    <img class="img-responsive" src="~/Images/josiah.jpg" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contactUs" class="pad-section">
+    <div class="container">
+        <h2 class="text-center">CONTACT US</h2>
+        @{
+            using (Html.BeginForm("SubmitContactUsForm", "Home", new { @class = "contactForm" }))
+            {
+
+                <div class='form-group'>
+                    @Html.LabelFor(m => m.Name)<br />
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "YOUR NAME", maxlength = "50" })
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email)<br />
+                    @Html.TextBoxFor(m => m.Email, new { type = "text", @class = "form-control ", placeholder = "YOUR E-MAIL", maxlength = "50" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Message)<br />
+                    @Html.TextAreaFor(m => m.Message, new { placeholder = "YOUR MESSAGE", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Message)
+                </div>
+                <button type="submit" class="btn btn-primary submitButtonStyling">Send Message</button>
+            }
+        }
+    </div>
+</div>

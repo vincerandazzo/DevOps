@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://192.185.11.134/httpdocs/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/13/2015 23:25:19</publishTime>
+    </File>
+    <File Include="bin/YoungFloHards.dll">
+      <publishTime>04/21/2015 18:40:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="Content/schleicherRespStyle.css">
+      <publishTime>04/21/2015 23:05:18</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/12/2015 12:34:30</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>04/21/2015 18:34:40</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-demo.html">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-webfont.eot">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-webfont.svg">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-webfont.ttf">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-webfont.woff">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/EpiqueTypeface-webfont.woff2">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/generator_config.txt">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/specimen_files/easytabs.js">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/specimen_files/grid_12-825-55-15.css">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/specimen_files/specimen_stylesheet.css">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/EpiqueTypeface/stylesheet.css">
+      <publishTime>03/05/2015 11:20:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/26/2015 21:46:03</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/generator_config.txt">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-demo.html">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-webfont.eot">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-webfont.svg">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-webfont.ttf">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-webfont.woff">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/Shoutest shadowed-webfont.woff2">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/specimen_files/easytabs.js">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/specimen_files/grid_12-825-55-15.css">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/specimen_files/specimen_stylesheet.css">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="fonts/ShoutestShadowed/stylesheet.css">
+      <publishTime>03/05/2015 10:58:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/12/2015 10:33:45</publishTime>
+    </File>
+    <File Include="Images/backcover.jpg">
+      <publishTime>02/07/2014 22:10:53</publishTime>
+    </File>
+    <File Include="Images/backgrounds/olivia.png">
+      <publishTime>10/26/2012 15:50:30</publishTime>
+    </File>
+    <File Include="Images/backgrounds/skull.png">
+      <publishTime>03/03/2014 20:21:33</publishTime>
+    </File>
+    <File Include="Images/backgrounds/texture01.jpg">
+      <publishTime>03/05/2015 21:49:15</publishTime>
+    </File>
+    <File Include="Images/border/addthis.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/app-net.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/behance.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/blogger.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/deviantart.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/digg.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/dribbble.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/email.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/facebook.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/flickr.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/forrst.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/foursquare.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/github.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/googleplus-revised.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/googleplus.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/indiegogo.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/instagram.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/kickstarter.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/lastfm.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/linkedin.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/livejournal.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/messenger-generic.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/myspace.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/orkut.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/paypal.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/picasa.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/pinterest.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/reddit.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/rss.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/sharethis.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/skype.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/soundcloud.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/spotify.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/stackoverflow.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/stumbleupon.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/tumblr.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/twitter-old.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/twitter.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/vimeo.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/wordpress.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/yelp.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/border/youtube.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/dasShop/dasYoungFloHards-Recovered.psd">
+      <publishTime>04/11/2015 14:30:47</publishTime>
+    </File>
+    <File Include="Images/dasShop/dasYoungFloHards.psd">
+      <publishTime>04/11/2015 14:32:21</publishTime>
+    </File>
+    <File Include="Images/dasShop/finishedJered.psd">
+      <publishTime>03/19/2015 20:02:16</publishTime>
+    </File>
+    <File Include="Images/dasShop/newJosiah.psd">
+      <publishTime>03/22/2015 09:16:07</publishTime>
+    </File>
+    <File Include="Images/dasShop/ps99EA.tmp">
+      <publishTime>04/11/2015 13:51:34</publishTime>
+    </File>
+    <File Include="Images/dasShop/skullSocial/facebookSkull.psd">
+      <publishTime>03/28/2015 16:21:15</publishTime>
+    </File>
+    <File Include="Images/dasShop/yfh.png">
+      <publishTime>03/15/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Images/drumstick-149338_1280.png">
+      <publishTime>03/22/2015 21:14:07</publishTime>
+    </File>
+    <File Include="Images/drumStick.jpg">
+      <publishTime>03/22/2015 21:02:36</publishTime>
+    </File>
+    <File Include="Images/drumstick.png">
+      <publishTime>03/22/2015 21:07:45</publishTime>
+    </File>
+    <File Include="Images/elvisVinyl.jpg">
+      <publishTime>03/31/2015 23:12:11</publishTime>
+    </File>
+    <File Include="Images/final_social/facebook.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/final_social/facebookSkull.png">
+      <publishTime>03/28/2015 16:05:45</publishTime>
+    </File>
+    <File Include="Images/final_social/facebook_empty.png">
+      <publishTime>09/14/2014 12:24:41</publishTime>
+    </File>
+    <File Include="Images/final_social/soundcloud.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/final_social/soundcloud_empty.png">
+      <publishTime>09/14/2014 12:25:05</publishTime>
+    </File>
+    <File Include="Images/final_social/twitter.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/final_social/twitter_empty.png">
+      <publishTime>09/14/2014 12:25:33</publishTime>
+    </File>
+    <File Include="Images/final_social/youtube.png">
+      <publishTime>10/01/2013 14:31:17</publishTime>
+    </File>
+    <File Include="Images/final_social/youtube_empty.png">
+      <publishTime>09/14/2014 12:26:36</publishTime>
+    </File>
+    <File Include="Images/final_social/youtube_icon.png">
+      <publishTime>09/14/2014 12:26:22</publishTime>
+    </File>
+    <File Include="Images/jered.jpg">
+      <publishTime>04/14/2015 19:57:22</publishTime>
+    </File>
+    <File Include="Images/jereds/10608734_10203773134741586_7933243660682262505_o.jpg">
+      <publishTime>03/05/2015 17:23:37</publishTime>
+    </File>
+    <File Include="Images/jereds/10615601_10204718514668990_537362666853685084_n.jpg">
+      <publishTime>03/05/2015 17:32:55</publishTime>
+    </File>
+    <File Include="Images/jereds/1488049_10202995898444661_145661714_n.jpg">
+      <publishTime>03/05/2015 17:29:41</publishTime>
+    </File>
+    <File Include="Images/jereds/1549359_10203906817577070_6952740089214195940_n.jpg">
+      <publishTime>03/05/2015 17:33:00</publishTime>
+    </File>
+    <File Include="Images/jereds/399332_2902996620246_208265058_n.jpg">
+      <publishTime>03/05/2015 17:27:44</publishTime>
+    </File>
+    <File Include="Images/jereds/jeredBobble.jpg">
+      <publishTime>03/10/2015 21:09:12</publishTime>
+    </File>
+    <File Include="Images/jereds/jeredBobble.psd">
+      <publishTime>03/13/2015 22:14:32</publishTime>
+    </File>
+    <File Include="Images/josiah.jpg">
+      <publishTime>04/14/2015 19:57:32</publishTime>
+    </File>
+    <File Include="Images/josiahs/10171141_10152123440867632_623046822047938746_n.jpg">
+      <publishTime>03/05/2015 17:24:09</publishTime>
+    </File>
+    <File Include="Images/josiahs/10171868_10151985452670723_4362856763071818685_n.jpg">
+      <publishTime>03/05/2015 17:24:17</publishTime>
+    </File>
+    <File Include="Images/josiahs/10460411_955014531451_2235803612254717459_n.jpg">
+      <publishTime>03/05/2015 17:24:03</publishTime>
+    </File>
+    <File Include="Images/josiahs/10603633_955015559391_2177033839850367090_n.jpg">
+      <publishTime>03/05/2015 17:23:59</publishTime>
+    </File>
+    <File Include="Images/josiahs/10606232_955016941621_8769765770565606618_n.jpg">
+      <publishTime>03/05/2015 17:23:46</publishTime>
+    </File>
+    <File Include="Images/josiahs/10959876_10152802235469773_1927312136727750005_n.jpg">
+      <publishTime>03/05/2015 17:23:03</publishTime>
+    </File>
+    <File Include="Images/josiahs/1453312_955015594321_6867513473892065510_n.jpg">
+      <publishTime>03/05/2015 17:23:52</publishTime>
+    </File>
+    <File Include="Images/josiahs/josiahBobble.jpg">
+      <publishTime>03/10/2015 21:08:55</publishTime>
+    </File>
+    <File Include="Images/josiahs/josiahyfh.jpg">
+      <publishTime>03/21/2015 09:07:56</publishTime>
+    </File>
+    <File Include="Images/lightblackandwhite.png">
+      <publishTime>09/14/2014 12:37:30</publishTime>
+    </File>
+    <File Include="Images/mainImage/DASTRIO.png">
+      <publishTime>04/11/2015 14:29:19</publishTime>
+    </File>
+    <File Include="Images/mainImage/main1.png">
+      <publishTime>03/25/2015 21:55:20</publishTime>
+    </File>
+    <File Include="Images/mainImage/main1.psd">
+      <publishTime>03/25/2015 21:55:12</publishTime>
+    </File>
+    <File Include="Images/menuIcon.png">
+      <publishTime>04/15/2015 23:34:46</publishTime>
+    </File>
+    <File Include="Images/Other/skull_with_roses_2404361102370.jpg">
+      <publishTime>03/03/2015 18:20:17</publishTime>
+    </File>
+    <File Include="Images/sample.png">
+      <publishTime>02/08/2014 18:49:17</publishTime>
+    </File>
+    <File Include="Images/SpanishGuitar.psd">
+      <publishTime>03/25/2015 21:03:29</publishTime>
+    </File>
+    <File Include="Images/Trio/trio1.png">
+      <publishTime>03/25/2015 20:47:53</publishTime>
+    </File>
+    <File Include="Images/Trio/trio1.psd">
+      <publishTime>03/28/2015 12:32:07</publishTime>
+    </File>
+    <File Include="Images/wedding_corner.jpg">
+      <publishTime>09/06/2014 17:17:05</publishTime>
+    </File>
+    <File Include="Images/yfh1.png">
+      <publishTime>09/14/2014 13:11:46</publishTime>
+    </File>
+    <File Include="Images/yfh2.png">
+      <publishTime>03/05/2015 10:51:29</publishTime>
+    </File>
+    <File Include="Images/yfh81015.png">
+      <publishTime>08/10/2014 17:28:27</publishTime>
+    </File>
+    <File Include="Images/yfhblackandwhite.png">
+      <publishTime>04/14/2015 20:10:38</publishTime>
+    </File>
+    <File Include="Images/yfhface.png">
+      <publishTime>04/14/2015 19:54:12</publishTime>
+    </File>
+    <File Include="Images/yfhfancy.jpg">
+      <publishTime>04/14/2015 21:04:29</publishTime>
+    </File>
+    <File Include="Images/yfhfancy.png">
+      <publishTime>04/11/2015 13:43:35</publishTime>
+    </File>
+    <File Include="Images/yfhListeningToVinyl.jpg">
+      <publishTime>03/31/2015 23:11:38</publishTime>
+    </File>
+    <File Include="Images/yfhMock1.png">
+      <publishTime>08/14/2014 18:41:14</publishTime>
+    </File>
+    <File Include="Images/yfhOne.png">
+      <publishTime>03/04/2015 21:56:22</publishTime>
+    </File>
+    <File Include="Images/yfhScores.jpg">
+      <publishTime>04/14/2015 20:15:30</publishTime>
+    </File>
+    <File Include="Images/yfhspin.png">
+      <publishTime>11/22/2014 14:19:25</publishTime>
+    </File>
+    <File Include="Images/yfhVinylWarp.png">
+      <publishTime>04/03/2015 10:51:28</publishTime>
+    </File>
+    <File Include="Images/zupan.jpg">
+      <publishTime>04/14/2015 19:57:44</publishTime>
+    </File>
+    <File Include="Images/zupans/10527748_955000554461_2369008685854896507_n.jpg">
+      <publishTime>03/05/2015 17:18:58</publishTime>
+    </File>
+    <File Include="Images/zupans/10557332_955000509551_5526295484885499012_n.jpg">
+      <publishTime>03/05/2015 17:18:53</publishTime>
+    </File>
+    <File Include="Images/zupans/10584028_954981772101_3858815783068126146_n.jpg">
+      <publishTime>03/05/2015 17:18:50</publishTime>
+    </File>
+    <File Include="Images/zupans/10869318_1032724013411314_4718100712491718820_o.jpg">
+      <publishTime>03/05/2015 17:19:02</publishTime>
+    </File>
+    <File Include="Images/zupans/zupan.jpg">
+      <publishTime>03/05/2015 17:18:45</publishTime>
+    </File>
+    <File Include="Images/zupans/ZUPAN.psd">
+      <publishTime>03/25/2015 21:03:17</publishTime>
+    </File>
+    <File Include="Images/zupans/zupanBobble.jpg">
+      <publishTime>03/10/2015 21:08:36</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/13/2015 23:24:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/26/2015 21:46:03</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/26/2015 21:46:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/26/2015 21:46:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/26/2015 21:46:15</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>02/26/2015 21:46:16</publishTime>
+    </File>
+    <File Include="Scripts/youngflohards.js">
+      <publishTime>04/21/2015 18:39:35</publishTime>
+    </File>
+    <File Include="Views/Home/Error.cshtml">
+      <publishTime>04/14/2015 23:15:10</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/21/2015 18:33:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/21/2015 18:10:35</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>04/13/2015 23:15:16</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/12/2015 11:03:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/13/2015 23:30:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
