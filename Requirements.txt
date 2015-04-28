@@ -1,0 +1,2 @@
+Server - Windows Server 2012
+Framework - ASP.NET 4.5, MVC 4

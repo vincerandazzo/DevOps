@@ -1,0 +1,184 @@
+﻿
+
+
+@media screen and (min-width: 450px) and (max-width: 599px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 766px) {
+    h1 {
+        font-size: 65px;
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    #mobileIconRow {
+        display: none;
+    }
+        #navigation li {
+            text-align: center;
+            display: inline-block;
+            background-color:transparent !important;
+            border:none;
+            /*adjust width depending on nav styling and amount of nav buttons*/
+            /*width: 15%;*/
+        }
+
+            #navigation li a {
+                /*change padding if you do not want bootstrap default( 10px 15px)*/
+                /*padding: 1em;*/
+                font-size: 1.4em;
+                
+                /*background-color: #fff;*/
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                /*border-radius: 4px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #1A551C;*/
+            }
+
+    /*#navigation li a:link {
+                color: #1A551C;
+                opacity: 1;
+            }
+
+            #navigation li a:visited {
+                color: #1A551C;
+                opacity: 1;
+            }
+
+            #navigation li a:hover {
+                background-color: #1A551C;
+                border-color: #fff;
+                color: #fff;
+                opacity: 1;
+            }
+
+            #navigation li a.active {
+                color: #1A551C;
+                opacity: 1;
+            }*/
+
+    .stickyNavigation {
+        position: fixed;
+        z-index: 150;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        box-shadow: 0 2px 3px rgba(0,0,0,.5);
+        max-width: 100% !important;
+        width: 100% !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-radius: 0 !important;
+        background-color: rgba(255,255,255, .8) !important;
+    }
+
+    .fixedMainImage {
+        display: inline-block !important;
+        width: 125% !important;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+
+    .mainImgLi {
+        right:3%;
+    }
+
+    .mainImg {
+        content: url("../Images/trio.png");
+        display:none;
+    }
+
+    #navigationDiv{display:inherit;  
+    }
+    #navAndHeader {
+        height: 45%;
+    }
+
+    #navigation {
+        background-color:none;
+        padding:0;
+        width:100%;
+        background-color: rgba(255,255,255,.5);
+        border-top-style:solid;
+        border-bottom-style:solid; 
+        border-width:4px; 
+        border-color:black !important;
+        margin-top:0 !important;
+        margin-bottom:0 !important;
+    }
+
+    #navigation li.main_social a:hover {
+        border: none;
+        background-color: transparent;
+    }
+
+    .main_social {
+        width: 8%;
+    }
+
+        .main_social a {
+            width: 100%;
+        }
+
+    .social_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fbimg:hover {
+        content: url("../Images/facebook.png");
+    }
+
+    .fbimg {
+        content: url("../Images/facebook_empty.png");
+    }
+
+    .scimg:hover {
+        content: url("../Images/soundcloud.png");
+    }
+
+    .scimg {
+        content: url("../Images/soundcloud_empty.png");
+    }
+
+    .twimg:hover {
+        content: url("../Images/twitter.png");
+    }
+
+    .twimg {
+        content: url("../Images/twitter_empty.png");
+    }
+
+    .ytimg:hover {
+        content: url("../Images/youtube.png");
+    }
+
+    .ytimg {
+        content: url("../Images/youtube_empty.png");
+    }
+
+       .maingImg {
+        content: url("../Images/trio.png");
+        display:inline;
+    }
+
+    #shows li{
+        width:70%;
+    }
+}
